@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <title>React App</title>
+  <style>
+    body.loaded {
+      background: url('assets/img/icons/progress.gif') no-repeat center center;
+      opacity: 0;
+      overflow: hidden;
+      background-size: 150px 153px;
+    }
+  </style>
+  <script>
+    window.addEventListener('load', () => {
+      document.querySelector('body.loaded').classList.remove('loaded');
+    });
+  </script>
+</head>
+
+<body class="loaded">
+  <div id="root"></div>
+</body>
+
+</html>

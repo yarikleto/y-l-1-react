@@ -1,0 +1,47 @@
+.main {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 3px solid #fee11b;
+}
+
+.main__title {
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+  text-align: center;
+}
+
+.main__lectures-timetable {
+  padding-top: 25px;
+}
+
+@media (min-width: 480px) {
+  .main__title {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main {
+    width: 940px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+  .main__title {
+    font-size: 35px;
+  }
+}
