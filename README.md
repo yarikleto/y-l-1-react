@@ -2,6 +2,6 @@
 
 ---
 
-### Посмореть можно [тут](http://alfimois.me/y-l-1-react/build/).
+### Посмореть можно [тут](http://yarikleto.github.io/y-l-1-react/build/).
 
 Перевел проект на React и Mobx.
