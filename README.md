@@ -1,7 +1,7 @@
-# Расписание лекций проекта «Мобилизация»
+# Schedule of lectures of the "Mobilization Project"
 
 ---
 
-### Посмореть можно [тут](http://yarikleto.github.io/y-l-1-react/build/).
+### You can check [here](http://yarikleto.github.io/y-l-1-react/build/).
 
-Перевел проект на React и Mobx.
+Moved the project to React and Mobx.
